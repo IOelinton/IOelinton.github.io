@@ -1,3 +1,18 @@
+/**.color1 { #f3e7d7 };
+.color2 { #f7d7cd };
+.color3 { #f8c7c9 };
+.color4 { #e0c0c7 };
+.color5 { #c7b9c5 };**/
+ 
+*{
+    background-color:#f3e7d7;
+}
+
 #fotoperfil{
     height: 200px;
+    border-radius: 50%;
+}
+#socialmidias img{
+    height: 15px;
+    padding-left: 15px;
 }
