@@ -4,15 +4,65 @@
 .color4 { #e0c0c7 };
 .color5 { #c7b9c5 };**/
  
-*{
-    background-color:#f3e7d7;
+body{
+    background: rgb(247,182,255);
+    background: linear-gradient(0deg, rgba(247,182,255,1) 0%, rgba(62,177,168,1) 100%);
+    width: 760px;
+    margin: auto;
+    height: 100%;
+    color: white;
+}
+
+#id-github{
+ font-family: monospace;
+ font-size: 40px;
+ padding-top: 15px;
+}
+
+#container{
+    width: 600px;
+    margin: auto;
+}
+
+#quemsoueu {
+    text-align: center;
+}
+#quemsoueu p{
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 20px;
 }
 
 #fotoperfil{
-    height: 200px;
+    width: 200px;
     border-radius: 50%;
+    display: block;
+    margin: 50px  auto;
 }
+
+#socialmidias{
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
 #socialmidias img{
+    width: 15px;
     height: 15px;
-    padding-left: 15px;
+    margin-left: 40px;
+}
+
+
+hr{
+    border: 0;
+    border-top: 1px solid black ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a::hover{
+    cursor: pointer;
+    color: black;
 }
