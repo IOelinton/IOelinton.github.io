@@ -1,0 +1,85 @@
+/**.color1 { #f3e7d7 };
+.color2 { #f7d7cd };
+.color3 { #f8c7c9 };
+.color4 { #e0c0c7 };
+.color5 { #c7b9c5 };**/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: rgb(247,182,255);
+    background: linear-gradient(0deg, rgba(247,182,255,1) 0%, rgba(62,177,168,1) 100%);
+    width: 99%;
+    color: white;
+}
+
+#id-github{
+ font-family: monospace;
+ font-size: 40px;
+ padding-top: 15px;
+}
+
+#container{
+    width: 600px;
+    margin: auto;
+    height: 100%;
+}
+
+#quemsoueu {
+    text-align: center;
+}
+#quemsoueu p{
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 20px;
+}
+
+#fotoperfil{
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 50px  auto;
+}
+
+#socialmidias{
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+#socialmidias img{
+    width: 15px;
+    height: 15px;
+    margin-left: 40px;
+}
+
+
+hr{
+    border: 0;
+    border-top: 1px solid black ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a::hover{
+    cursor: pointer;
+    color: black;
+}
+
+.imgcomlink {
+    transition: transform 0.5s;
+}
+
+.imgcomlink:hover{
+    transform: scale(2,2);
+    transform: ;
+}
